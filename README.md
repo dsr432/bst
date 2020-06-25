@@ -1,0 +1,1 @@
+Beautified Study Tracker is a program I'm creating for school to help me track my study habits as well as keep track of homework and whatnot.  This program uses Electron via Electron Forge for developement.  
