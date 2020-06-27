@@ -18,7 +18,7 @@ const createWindow = () => {
   //works with show: false to only open after initialization finished
   mainWindow.once('ready-to-show', () => {
     mainWindow.show()
-  })
+  });
 
   // and load the index.html of the app.
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
