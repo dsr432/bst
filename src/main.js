@@ -25,7 +25,7 @@ const createWindow = () => {
   });
 
   // and load the index.html of the app.
-  mainWindow.loadFile(path.join(__dirname, 'index.html'));
+  mainWindow.loadFile(path.join(__dirname, 'command/command.html'));
 
   // Open the DevTools if webContents.openDevTools(),
   //replaced with .DevTools = false, cuz who wants those lol
