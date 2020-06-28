@@ -3,7 +3,7 @@
   "productName": "bst",
   "version": "1.0.0",
   "description": "Beautified Study Tracker is a program for keeping track of study habits and school work.",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
