@@ -15,8 +15,9 @@ const createWindow = () => {
     width: 400,
     height: 50,
     frame: false,
-    resizable: false,
+    resizable: true,
     opacity: 0.5,
+    alwaysOnTop: true,
   });
 
   //works with show: false to only open after initialization finished

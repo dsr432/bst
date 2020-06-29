@@ -4,3 +4,36 @@ body {
   border: 0rem;
   padding: 0rem;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#command-line{
+  z-index: 1;
+  position: absolute;
+  border: none;
+  outline: none;
+  margin-left: 3rem;
+  width: 21.3rem;
+  height: 3rem;
+  font-size: 2rem;
+}
+
+#underline-bar{
+  z-index: 2;
+  position: absolute;
+  background-color: black;
+  margin-top: 2.5rem;
+  margin-left: 3rem;
+  height: 0.2rem;
+  width: 21.53rem;
+}
+
+#search{
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+}
