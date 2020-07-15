@@ -15,8 +15,9 @@ const createWindow = () => {
     width: 400,
     height: 50,
     frame: false,
-    resizable: true,
-    opacity: 0.5,
+    resizable: false,
+    opacity: 0.9,
+    skipTaskbar: true,
     alwaysOnTop: true,
   });
 
