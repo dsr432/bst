@@ -1,4 +1,4 @@
-const { app, BrowserWindow, globalShortcut, Menu, MenuIten } = require('electron');
+const { app, BrowserWindow, globalShortcut } = require('electron');
 const path = require('path');
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -43,11 +43,8 @@ const createWindow = () => {
     globalShortcut.register('CommandOrControl+D', () => {
       if (mainWindow.isFocused() == false) {
         mainWindow.show();
-        console.log("\nSuper Key + X was pressed\nmainWindow focused");
       } else if (mainWindow.isFocused() == true) {
         mainWindow.blur();
-//        mainWindow.hide();
-        console.log("\nSuper Key + X was pressed\nmainWindow not focused")
       }
     })
   })
