@@ -1,6 +1,12 @@
 :root{
   --theme: #1d1d1d;
-  --theme-accent: #000000;
+  --theme-accent: #141414;
+  --theme-accent-two: #5e5e5e;
+}
+
+::placeholder{
+  color: var(--theme-accent-two);
+  opacity: 0.2;
 }
 
 body {
@@ -24,8 +30,8 @@ body {
   width: 21.3rem;
   height: 3rem;
   font-size: 2rem;
-  color: var(--theme-accent);
-  background-color: var(--theme);
+  color: var(--theme-accent-two);
+  background-color: transparent;
 }
 
 #underline-bar{
@@ -44,5 +50,4 @@ body {
   position: absolute;
   width: 2.5rem;
   height: 2.5rem;
-  background-color: var(--theme);
 }
